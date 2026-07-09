@@ -5,6 +5,13 @@ A full-stack MERN customer support and complaint management platform with three 
 
 ---
 
+## Links
+
+- **Project Documentation:** https://drive.google.com/drive/folders/1izbkM0TPsq5yRqD3DFk6Ohb4esO-OeY5?usp=drive_link
+- **Demo Video:** https://drive.google.com/drive/folders/1SP1eW3qy3xuNYQJ7DXo2hYkD3xvzoMzY?usp=drive_link
+
+---
+
 ## 1. Tech Stack
 
 **Frontend:** React + Vite, React Router DOM, Tailwind CSS, Axios, React Icons, Framer Motion,
