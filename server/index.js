@@ -29,7 +29,10 @@ app.get('/api/health', (req, res) => {
 
 // API routes
 app.use('/api', routes);
-
+// Add this: Root route handler
+app.get('/', (req, res) => {
+  res.json({ success: true, message: 'Welcome to the Customer Registry API. Use /api for endpoints.' });
+});
 // 404 handler
 app.use((req, res, next) => {
   res.status(404).json({ success: false, message: `Route not found: ${req.originalUrl}` });
